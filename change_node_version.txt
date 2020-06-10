@@ -1,2 +1,5 @@
 -> npm install -g n
 -> type n and select node version to use
+-> how install node version with node  
+    - n 10.16.0 and selected by default
+-> if doesnt work n, type sudo n
