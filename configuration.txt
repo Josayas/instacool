@@ -1,0 +1,9 @@
+->   "exclude": [
+    "functions",
+    "build"
+  ]
+  en tsconfig.json de la raiz
+-> "typeRoots": [
+      "./functions/node_modules/@types"
+    ]
+    en tsconfig.json de carpeta functions, compilerOptions
