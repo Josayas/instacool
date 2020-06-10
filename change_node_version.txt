@@ -1,0 +1,2 @@
+-> npm install -g n
+-> type n and select node version to use
