@@ -1,0 +1,16 @@
+-> instalar node js
+-> instalar yarn
+-> instalar typescript - yarn global add typescript
+-> instalar firebase tools - yarn global add firebase-tools
+-> crear proyecto nuevo en firebase, de nombre instacool
+-> habilitar autenticación con email y password
+-> crear base de datos en modo test
+-> crear proyecto react npx create-react-app instacool --typescript
+-> iniciar proyecto firebase, seleccionar:
+    - firestore, functions, hosting, storage
+-> What do you want to use as your public directory? build
+-> Which port do you want to use for the functions emulator? 5001
+-> Which port do you want to use for the firestore emulator? 8080
+-> Which port do you want to use for the database emulator? 9000
+-> Which port do you want to use for the hosting emulator? 5002
+-> Which port do you want to use for the pubsub emulator? 8085
