@@ -6,9 +6,9 @@ import Button from "./Button";
 import Center from "./Center";
 import Input from "./Input";
 
-import { ILogin } from "../ducks/Users";
+// import { ILogin } from "../ducks/Users";
 
-class RegisterForm extends React.Component<InjectedFormProps<ILogin>> {
+class RegisterForm extends React.Component<InjectedFormProps<any>> {
   public render() {
     const { handleSubmit } = this.props;
 
@@ -37,6 +37,6 @@ class RegisterForm extends React.Component<InjectedFormProps<ILogin>> {
   }
 }
 
-export default reduxForm<ILogin>({
+export default reduxForm<any>({
   form: "register",
 })(RegisterForm);

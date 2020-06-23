@@ -1,0 +1,1 @@
+-> Carpeta containers, contiene los componentes que se conectarán con el estado de la aplicación
